@@ -1,18 +1,18 @@
-## Getting Started
+# Peak Columns
+### Java program to find peak columns in a matrix
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Search a given matrix A for elements that are both a maximum in their row and a minimum in their column. These elements are called peak-columns. Display the positions and values of all peak-columns found.
+Examples of elements that are peak-columns:
 
-## Folder Structure
+Sample input:
+```
+Matrix A: 3,3
+| 12  2  4 |
+| 17 10  1 |
+| 92 80 79 |
+```
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Sample output:
+```
+(1,1) = 12
+```
